@@ -1,0 +1,11 @@
+
+virtual vs abstract methods:
+
+abstract method
+	1. child classes MUST define the method body
+	2. because of the previous point, it wouldn't be logical to define a body in the base class -> so it is forbidden to have a method body
+	3. the class must also have the 'abstract' modifier
+
+virtual method
+	1. the base class MUST define the method body
+	2. child classes can define the method body, although it isn't necessary

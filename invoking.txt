@@ -1,0 +1,4 @@
+
+Using Invoke or BeginInvoke will ALWAYS block the UI.
+
+The only difference is that BeginInvoke does not block the calling thread.

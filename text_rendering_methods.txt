@@ -1,0 +1,27 @@
+
+1. System.Windows.Forms.TextRenderer
+
+versus
+
+2. System.Drawing.Graphics
+
+
+
+Methods:
+
+1.
+	System.Windows.Forms.TextRenderer.DrawText();
+	System.Windows.Forms.TextRenderer.MeasureText();
+
+
+2.
+	(System.Drawing.Graphics g = this.CreateGraphics();)
+
+	g.DrawString();
+	g.MeasureString();
+
+
+
+System.Drawing.Graphics PRO:
+	- supports alpha channel in the text color
+	- MeasureString() seemed to be more accurate than MeasureText()

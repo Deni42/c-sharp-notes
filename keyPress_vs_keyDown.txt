@@ -1,0 +1,9 @@
+
+_KeyPress vs. _KeyDown
+
+1. _KeyPress only handler letters and digits, it doesn't handle ctrl, alt, F1, etc.
+
+2. With _KeyDown, the passed parameter has more properties.
+
+
+Conclusion: _KeyDown gives you more information, but _KeyPress can be useful if you want to know if the pressed character is a digit.

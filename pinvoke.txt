@@ -1,0 +1,4 @@
+
+Help for converting native types to managed types:
+
+http://msdn.microsoft.com/en-us/library/cc230309.aspx

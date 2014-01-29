@@ -2,3 +2,5 @@
 In Winforms, if you put a Label in a TableLayoutPanel and set the Label's Dock property to Fill, a slight flickering may occur when you change its text.
 
 To disable the flicker, set the Dock property to None, then set the Anchor property to all four sides.
+
+http://stackoverflow.com/a/3818008

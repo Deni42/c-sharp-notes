@@ -1,2 +1,4 @@
-c-sharp-notes
+C# Notes
 =============
+
+General notes for C# programming.

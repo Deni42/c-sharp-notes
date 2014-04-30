@@ -1,4 +1,11 @@
 
-Help for converting native types to managed types:
+
+Automatically convert native definitions to managed ones:
+
+PInvoke Interop Assistant
+http://clrinterop.codeplex.com/releases/view/14120
+
+
+Data types:
 
 http://msdn.microsoft.com/en-us/library/cc230309.aspx

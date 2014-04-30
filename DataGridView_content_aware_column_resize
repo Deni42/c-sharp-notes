@@ -1,0 +1,9 @@
+
+
+To automatically resize columns of a DataGridView, use:
+
+dataGridView_content.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+Then, after you have added all columns, run:
+
+dataGridView_content.AutoResizeColumns();
